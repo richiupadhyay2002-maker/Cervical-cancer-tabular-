@@ -132,14 +132,14 @@ xgboost
 
 | Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |-------|----------|-----------|--------|----------|---------|
-| Logistic Regression | - | - | - | - | - |
-| Linear SVM | - | - | - | - | - |
-| RBF SVM | - | - | - | - | - |
-| Polynomial SVM | - | - | - | - | - |
-| Bagging | - | - | - | - | - |
-| Random Forest | - | - | - | - | - |
-| AdaBoost | - | - | - | - | - |
-| Gradient Boosting | - | - | - | - | - |
+| Logistic Regression | 0.9760 | 0.7692 | 0.9091 | 0.8333 | 0.9545 |
+| Linear SVM | 0.9820 | 0.8333 | 0.9091 | 0.8696 | 0.9534 |
+| RBF SVM | 0.9521 | 0.6667 | 0.5455 | 0.6000 | 0.9604 |
+| Polynomial SVM | 0.9760 | 0.8182 | 0.8182 | 0.8182 | 0.9371 |
+| Bagging | 0.9820 | 0.9000 | 0.8182 | 0.8571 | 0.0000 |
+| Random Forest | 0.9701 | 0.7500 | 0.8182 | 0.8182 | 0.9371 |
+| AdaBoost | 0.9820 | 0.8333 | 0.9091 | 0.8696 | 0.9470 |
+| Gradient Boosting | 0.9820 | 0.9000 | 0.8182 | 0.8571 | 0.9307 |
 
 *Note: Run the model training notebook to populate the results table with actual values.*
 
